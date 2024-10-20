@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freddy ETOME KAME - Me Contacter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Me Contacter</h1>
+    </header>
+    
+    <section>
+        <h2>Informations de Contact</h2>
+        <p>Vous pouvez me contacter par les moyens suivants :</p>
+        <ul>
+            <li><strong>Email</strong>: <a href="mailto:fredkameetome@gmail.com">fredkameetome@gmail.com</a></li>
+            <li><strong>Téléphone</strong>: <a href="tel:+237695257557">+237 6 95 25 75 57</a></li>
+            <li><strong>LinkedIn</strong>: <a href="www.linkedin.com/in/freddy-kame-58105b127" target="_blank">Votre Profil LinkedIn</a></li>
+        </ul>
+    </section>
+    
+    <section>
+        <h2>Formulaire de Contact</h2>
+        <form id="contactForm" action="mailto:fredkameetome@gmail.com" method="post" enctype="text/plain" onsubmit="return validateForm()">
+            <label for="name">Nom :</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email :</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message :</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+    
+    <nav>
+        <h2>Liens utiles</h2>
+        <ul>
+            <li><a href="index.html">À propos de moi</a></li>
+            <li><a href="competences.html">Mes compétences</a></li>
+            <li><a href="projets.html">Mes projets</a></li>
+        </ul>
+    </nav>
+    
+    <footer>
+        <p>&copy; 2024 Freddy ETOME KAME. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
